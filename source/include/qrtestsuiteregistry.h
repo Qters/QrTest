@@ -7,9 +7,7 @@
 
 #include "qrtest_global.h"
 
-namespace Qters {
-
-namespace QrTest {
+NS_QRTEST_BEGIN
 
 class QrTestSuiteFactory;
 
@@ -34,8 +32,6 @@ private:
     QHash<QString, QrTestSuiteFactory*> m_factories;
 };
 
-}   //  namespace QrTest
-
-}   //  namespace Qters
+NS_QRTEST_END
 
 #endif // QRTESTSUITEREGISTRY_H

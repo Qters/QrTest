@@ -2,7 +2,7 @@
 
 #include "qrtestsuitefactory.h"
 
-using namespace Qters::QrTest;
+USING_NS_QRTEST;
 
 QMutex QrTestSuiteRegistry::mutex;
 QrTestSuiteRegistry* QrTestSuiteRegistry::instance = nullptr;

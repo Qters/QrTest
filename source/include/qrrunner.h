@@ -3,9 +3,7 @@
 
 #include "qrtest_global.h"
 
-namespace Qters {
-
-namespace QrTest {
+NS_QRTEST_BEGIN
 
 class QrTestSuiteFactory;
 
@@ -18,8 +16,6 @@ public:
     static int runTest(QrTestSuiteFactory* factory);
 };
 
-}   //  namespace QrTest
-
-}   //  namespace Qters
+NS_QRTEST_END
 
 #endif // QRRUNNER_H

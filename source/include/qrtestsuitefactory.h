@@ -16,9 +16,7 @@
     class
 #endif
 
-namespace Qters {
-
-namespace QrTest {
+NS_QRTEST_BEGIN
 
 /*!
  * \brief The TestSuiteFactory class
@@ -62,8 +60,6 @@ public:
     }
 };
 
-}   //  namespace QrTest
-
-}   //  namespace Qters
+NS_QRTEST_END
 
 #endif // QRTESTSUITEFACTORY_H

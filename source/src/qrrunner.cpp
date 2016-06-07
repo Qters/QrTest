@@ -8,7 +8,7 @@
 #include "qrtestsuitefactory.h"
 #include "qrtestsuiteregistry.h"
 
-using namespace Qters::QrTest;
+USING_NS_QRTEST;
 
 int QrRunner::runAllTest()
 {

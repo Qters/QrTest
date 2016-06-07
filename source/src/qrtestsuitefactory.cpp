@@ -2,7 +2,7 @@
 
 #include "qrtestsuiteregistry.h"
 
-using namespace Qters::QrTest;
+USING_NS_QRTEST;
 
 QrTestSuiteFactory::QrTestSuiteFactory(const QString& _suiteName, const QString& _fileName)
     :suiteaName(_suiteName), fileName(_fileName)

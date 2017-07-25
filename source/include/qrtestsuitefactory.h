@@ -13,7 +13,7 @@
     ClassName; \
     static Qters::QrTest::QrTestCaseFactoryImpl<ClassName>* TestCaseFactory_##ClassName \
     = Qters::QrTest::QrTestCaseFactoryImpl<ClassName>::init(#ClassName, __FILE__); \
-    class
+    class ClassName
 #endif
 
 NS_QRTEST_BEGIN

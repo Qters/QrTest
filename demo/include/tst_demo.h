@@ -3,7 +3,7 @@
 
 #include "qrtestsuitefactory.h"
 
-class TESTSUITE(tst_Demo) tst_Demo : public QObject
+class TESTSUITE(tst_Demo) : public QObject
 {
     Q_OBJECT
 
